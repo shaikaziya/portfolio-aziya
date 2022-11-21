@@ -1,5 +1,5 @@
-import React from 'react'
-import Button from '@mui/material/Button';
+import React from "react";
+import Button from "@mui/material/Button";
 
 import "../Styles/About.css";
 import about from "../images/about.jpg";
@@ -15,15 +15,15 @@ const About = () => {
         <h1 className="abt-title">ABOUT ME</h1>
         <p className="abt-sub">
           I'm a{" "}
-          <span style={{ color: "blueviolet", fontSize: "45px" }}>
+          <span style={{ color: "#316EB6", fontSize: "45px" }}>
             Full Stack Developer/MERN Stack Developer
           </span>
         </p>
         <p className="abt-desc">
-          An enthusiastic,hardworking,self-confidence,self-motivated and excited
-          programmer, Who likes to involve in the projects all.I really interest
-          to learn new technologies and implement them. I am focus on completing
-          the work given to me on time.
+          I seek to work in a competitive field and ready to accept the
+          challenges, utilizing my skills, would like to work with a highly
+          esteemed company which gives me a platform to use my expertise and
+          skills for mutual growth and benefit of company and myself.
         </p>
         <div className="resume">
           <Button
@@ -38,6 +38,6 @@ const About = () => {
       </div>
     </div>
   );
-}
+};
 
-export default About
+export default About;

@@ -41,7 +41,12 @@ a{
  } 
  .project{
      text-align: center;
-     color: rgb(5, 5, 5);
+     color:black;
+     font-family: Poppins,sans-serif;
+     font-size: 2rem;
+     font-weight: 700;
+     margin-top: 10px;
+     font-family: "trispace";
  }
 .card-description {
   color: rgb(15, 3, 37) !important;

@@ -2,6 +2,7 @@
     height: 100vh;
     display: flex;
    align-items: center;
+   font-family: "trispace";
 }
 .abt-left{
     flex: 1;
@@ -25,25 +26,31 @@ border-radius: 30px;
 .abt-title{
    font-size: 2rem;
     font-weight: 700;
+    margin-bottom: 10px;
+    
 
 }
 .abt-sub{
     font-size: 50px;
- margin: 20px 0px;
+    font-family: "trispace";
+    /* margin-bottom: 100px; */
+    /* margin-top: 50px; */
+
 }
 .abt-desc{
     font-family:  sans-serif;
-font-size: 30px;
+font-size: 20px;
 
 }
 .resume{
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-right: 400px;
     align-items: center;
     text-decoration:none;
     border: 2px solid blueviolet;
     width: 100px;
     border-radius: 5px;
+    font-family: "trispace";
 }
 .resume:hover{
     background-color: lightpink;
